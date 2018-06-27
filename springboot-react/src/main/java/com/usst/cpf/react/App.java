@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Hello world!
  */
 @SpringBootApplication
-@MapperScan("com.usst.cpf.springboot.mapper")
+@MapperScan("com.usst.cpf.react.mapper")
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
